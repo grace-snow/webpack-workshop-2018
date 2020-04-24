@@ -5,7 +5,7 @@
  * @returns {Element}
  */
 const makeButton = buttonName => {
-  const buttonLabel = `Button: ${buttonName}`;
+  const buttonLabel = `${buttonName}`;
 
   const button = document.createElement("button");
   button.innerText = buttonLabel;
